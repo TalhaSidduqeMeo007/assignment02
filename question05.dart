@@ -2,9 +2,13 @@
 //  where to find all keys that have length 4.
 
 void main() {
-  List<String> names = ['talha', 'bilal', 'hamza', 'meo', 'meo', 'saad'];
-  List<String> phones = names.where((element) => names.startsWith("s")).toList();
-  print(phones);
+  Map studentsKey = {
+    "ali": "039372318",
+    "meo": "03937238",
+    "bila": "0393731283",
+    "saad": "0393723218",
+    "asan": "0393232178",
+    "taha": "0393723",
+  };
+  print(studentsKey.keys.where((key) => key.length == 4));
 }
-
-

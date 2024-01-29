@@ -2,3 +2,10 @@
 // "isActive", write Dart code to check if the user is an active admin. If the user is
 // both an admin and active, print "Active admin", otherwise print "Not an active
 // admin".
+
+void main() {
+  var user = {
+    "name": "talha ",
+    "isAdmin": true,
+    "isActive": true
+  };

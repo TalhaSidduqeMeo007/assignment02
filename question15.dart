@@ -7,8 +7,8 @@ void main (){
   
   List<int> originalList = [-5, 2, -8, 1, -7, 3, 6, -4, 0]; 
 
-  List<int> positiveNumbers = originalList.where((number) => number >= 0).toList();
-  List<int> negativeNumbers = originalList.where((numbers) => numbers != 0 ).toList();
+  List<int> positiveNumbers = originalList.where((number) => number > 0).toList();
+  List<int> negativeNumbers = originalList.where((numbers) => numbers < 0 ).toList();
 
   
   print(positiveNumbers);
