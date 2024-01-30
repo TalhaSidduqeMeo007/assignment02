@@ -4,6 +4,25 @@
 // found".
 
 void main() {
-  var cart = new Cart
-
+  Map<String, int> shoppingCart = {
+    "Apple": 1,
+    "Banana": 2,
+    "Orange": 3,
+    "Mango": 4,
+    "Watermelon": 5,
+    "Pineapple": 6,
+    "Strawberry": 7,
+    "Kiwi": 8,
+    "Peach": 9,
+    "Cherry": 10,
+    "Lemon": 11,
+    "Apricot": 12,
+    "Pear": 13,
+    "Grapes": 14,
+  };
+  if (shoppingCart.containsKey("Apple")) {
+    print("Product found");
+  } else {
+    print("Product not found");
+  }
 }

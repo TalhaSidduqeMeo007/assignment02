@@ -14,10 +14,15 @@ void main() {
     'tue': 3234.0,
     'fri': 500.0,
   };
-  if (expenses.containsValue('fri')) {
+
+  if (expenses.containsValue("fri")){
     expenses['fri'] = 5000.0;
-  } else {
+  }else {
     expenses['fri'] = 5000.0;
-    print(expenses);
+
   }
+
+  print(expenses);
+
+
 }

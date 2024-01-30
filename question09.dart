@@ -11,17 +11,17 @@ void main() {
     6,
     7,
   ];
+
   var max = 0;
   for (var i = 0; i < list.length; i++) {
     if (list[i] > max) {
       max = list[i];
     }
-    
   }
   print('the all values of list is ');
-    print(list);
-    print('the maximun value is ');
+  print(list);
+  print('the maximun value is ');
 
-    print(max);
+  print(max);
   // for (var i =0,  i> list.length; i++);
 }
