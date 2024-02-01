@@ -9,5 +9,5 @@ void main(){
     "isAdmin": true,
     "isActive": true
   };
-  print(user["isActive"]; "Active admin" : "Not an active admin");
+  
 }

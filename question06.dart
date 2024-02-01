@@ -4,6 +4,24 @@
 // value of Capital & Currency.
 
 void main() {
+  var country = "Australia";
 
-  
+  Map<String, Map<String, dynamic>> world = {
+    "Australia": {
+      "capitalCity": "Canberra",
+      "currency": "Australian Dollar",
+      "language": "English"
+    },
+    "New Zealand": {
+      "capitalCity": "Wellington",
+      "currency": "New Zealand Dollar",
+      "language": "English"
+    },
+    "United Kingdom": {
+      "capitalCity": "London",
+      "currency": "Pound Sterling",
+      "language": "English"
+    }
+  };
+  print(world[country]);
 }
