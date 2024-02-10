@@ -4,7 +4,7 @@
 // found".
 
 void main() {
-  Map<String, int> shoppingCart = {
+  var shoppingCart = {
     "Apple": 1,
     "Banana": 2,
     "Orange": 3,
@@ -20,7 +20,7 @@ void main() {
     "Pear": 13,
     "Grapes": 14,
   };
-  if (shoppingCart.containsKey("Apple")) {
+  if (shoppingCart.containsKey("peach")) {
     print("Product found");
   } else {
     print("Product not found");

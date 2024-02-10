@@ -23,5 +23,4 @@ void main() {
   print('the maximun value is ');
 
   print(max);
-  // for (var i =0,  i> list.length; i++);
 }

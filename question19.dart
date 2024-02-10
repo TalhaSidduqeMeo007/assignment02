@@ -6,9 +6,9 @@ void main() {
   Map<String, dynamic> product = {
     "name": "<NAME>",
     "price": 100,
-    "quantity": 10
+    "quantity": 23
   };
-  if (product["quantity"] > 0) {
+  if (product["quantity"] < 20) {
     print("In stock");
   } else {
     print("Out of stock");

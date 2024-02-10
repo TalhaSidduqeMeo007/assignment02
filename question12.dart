@@ -2,9 +2,9 @@
 // the elements in reverse order. The original list should remain unchanged.
 
 void main() {
-  var elements = ['a', 'b', 'c', 'd', 'e', 'f'];
-
-  elements.reversed.forEach((elements) {
-  });
-  print(elements);
+  var originalList = ['apple', 'banana', 'orange', 'grape'];
+  var reversedList = List.from(originalList.reversed);
+  
+  print('Original List: $originalList');
+  print('Reversed List: $reversedList');
 }

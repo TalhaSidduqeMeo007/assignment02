@@ -3,11 +3,16 @@
 // both an admin and active, print "Active admin", otherwise print "Not an active
 // admin".
 
-void main(){
-  var user = {
+void main() {
+  var  user = {
     "name": "John",
     "isAdmin": true,
-    "isActive": true
+    "isActive": true,
   };
-  
+
+  if (user["isAdmin"] == true && user["isActive"] == true) {
+    print("Active admin");
+  } else {
+    print("Not an active admin");
+  }
 }
